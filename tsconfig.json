@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es6",
+		"outDir": "./dist",
+		"rootDir": "src",
+		"sourceMap": true,
+		"strict": false,
+		"baseUrl": ".",
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"paths": {
+			"src/*": ["src/*"],
+			"@helpers/*": ["src/helpers/*"],
+			"@models/*": ["src/models/*"],
+			"@utils/*": ["src/utils/*"],
+			"@types": ["src/types/index.ts"],
+			"@modules/*": ["src/modules/*"],
+			"@validators/*": ["src/validators/*"]
+		}
+	},
+	"exclude": ["node_modules", "test/**/*"]
+}
